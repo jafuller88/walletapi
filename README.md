@@ -6,20 +6,13 @@ It is based on Monero however the examples used are Electroneum based (Electrone
 The data returned can be in either JSON or HTML format.
 
 ## Usage
- -logLevel int  
-       Log Level (0=FATAL,1=ERROR,2=INFO,3=DEBUG  
- -rpc string  
-       RPC URL and Port (default "http://127.0.0.1:3000/json_rpc")  
- -port string  
-       Web API Server Port (default "8080")  
- -rt int  
-       API response type (0=JSON,1=HTML)  
- -api string                                
-       Price API URL (default "https://min-api.cryptocompare.com/data/price?")  
- -tsym string  
-       To Symbol/s (default "BTC,USD,EUR")  
- -fsym string                             
-       From Symbol (default "ETN")  
+ -logLevel int - Log Level (0=FATAL,1=ERROR,2=INFO,3=DEBUG  
+ -rpc string - RPC URL and Port (default "http://127.0.0.1:3000/json_rpc")  
+ -port string - Web API Server Port (default "8080")  
+ -rt int - API response type (0=JSON,1=HTML)  
+ -api string - Price API URL (default "https://min-api.cryptocompare.com/data/price?")  
+ -tsym string - To Symbol/s (default "BTC,USD,EUR")  
+ -fsym string - From Symbol (default "ETN")  
 
 ## Running the wallet daemon services
 For the API to run you will need to have the main Wallet Daemon running and synchronized with the network. Example startup command:
