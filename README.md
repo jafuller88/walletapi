@@ -27,6 +27,15 @@ You can then build and start the Wallet API
 ```
 go build && ./walletapi
 ```
+## Accessing the API
+When everything is up and running you can access the API on your chosen port. For example
+
+http://localhost:8080/balance
+
+Eaxmple Response: (JSON)
+```
+{"balance":100.55,"price":0.07604,"totalValue":7.65}
+```
 
 ## Security - IMPORTANT!
 Ideally you would run this on your local network only.
