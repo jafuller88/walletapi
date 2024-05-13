@@ -87,4 +87,4 @@ Response: {"BTC":0.00000827,"USD":0.08392,"EUR":0.06694}
 
 ## SEO Help
 
-https://innerliferecovery.com/
+[Spain rehab](https://innerliferecovery.com/)
